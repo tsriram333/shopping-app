@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="950ccecf-c379-421f-8cb9-ed0485b27966" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../expense_tracker/lib/lol.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../expense_tracker/lib/resources/transaction.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../expense_tracker/lib/widgets/Transactions.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../expense_tracker/lib/widgets/chart.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../expense_tracker/lib/widgets/txcard.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../expense_tracker/lib/widgets/userinput.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flutter_app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizz_app/lib/answers.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizz_app/lib/contsants.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizz_app/lib/questions.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizz_app/lib/quiz.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizz_app/lib/result.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitmodules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/android/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/android/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/android/app/src/main/java/com/twodimensions/timeline/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/android/app/src/main/res/drawable/launch_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/android/app/src/main/res/mipmap-hdpi/ic_launcher_app.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/android/app/src/main/res/mipmap-mdpi/ic_launcher_app.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/android/app/src/main/res/mipmap-xhdpi/ic_launcher_app.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_app.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_app.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/android/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/android/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/android/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/android/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Agricultural_evolution/Agricultural_evolution.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Agricultural_evolution/Agricultural_evolution.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Alan_Turing/Alan_Turing.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Alan_Turing/Alan_Turing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Amelia_Earhart/Amelia_Earhart.flr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Animals.flr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Apes/Apes.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Apes/Apes0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Apes/Apes1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/App_Icons/Android/hdpi/ic_launcher_APP.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/App_Icons/Android/mdpi/ic_launcher_APP.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/App_Icons/Android/play/ic_launcher_APP.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/App_Icons/Android/xhdpi/ic_launcher_APP.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/App_Icons/Android/xxhdpi/ic_launcher_APP.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/App_Icons/Android/xxxhdpi/ic_launcher_APP.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/App_Icons/iOS/Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/App_Icons/iOS/icon_20pt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/App_Icons/iOS/icon_20pt@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/App_Icons/iOS/icon_20pt@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/App_Icons/iOS/icon_29pt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/App_Icons/iOS/icon_29pt@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/App_Icons/iOS/icon_29pt@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/App_Icons/iOS/icon_40pt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/App_Icons/iOS/icon_40pt@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/App_Icons/iOS/icon_40pt@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/App_Icons/iOS/icon_60pt@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/App_Icons/iOS/icon_60pt@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/App_Icons/iOS/icon_76pt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/App_Icons/iOS/icon_76pt@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/App_Icons/iOS/icon_83.5@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Articles/agricultural_revolution.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Articles/alan_turing.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Articles/amelia_earhart.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Articles/animals.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Articles/big_bang.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Articles/black_plague.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Articles/bombardment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Articles/cold_war.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Articles/constantinople.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Articles/control_fire.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Articles/crusades.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Articles/darwin.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Articles/dino_extinction.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Articles/dinosaurs.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Articles/earth.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Articles/fire.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Articles/first_temple.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Articles/fish.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Articles/history.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Articles/humans.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Articles/industrialization.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Articles/insects.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Articles/internet.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Articles/last_common_ancestor_apes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Articles/life_on_earth.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Articles/mammals.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Articles/marie_curie.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Articles/martin_luther_king.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Articles/milky_way.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Articles/moon_landing.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Articles/nelson_mandela.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Articles/newton.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Articles/pyramids.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Articles/reptiles.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Articles/roman_empire.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Articles/sapiens.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Articles/single_celled_organisms.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Articles/stegosaurus.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Articles/suffragette.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Articles/sun.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Articles/tools.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Articles/trex.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Articles/world_war_i.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Articles/world_war_ii.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Articles/writing.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Big_Bang/Big_Bang.flr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/BlackPlague/BlackPlague.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/BlackPlague/BlackPlague.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Broken Heart.flr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Cells/Cells.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Cells/Cells.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Cold_war/Cold_war.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Cold_war/Cold_war.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Constantinople/Constantinople.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Constantinople/Constantinople0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Constantinople/Constantinople1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Constructive_Tools/Constructive_Tools.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Constructive_Tools/Constructive_Tools.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Crusades/Crusades.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Crusades/Crusades.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Darwin 2/Darwin 2.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Darwin 2/Darwin 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Dinosaur_Demise/Dinosaur_Demise.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Dinosaur_Demise/Dinosaur_Demise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Dinosaurs.flr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Dinosaurs/Dinosaurs.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Dinosaurs/Dinosaurs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/ExpandCollapse.flr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Favorite.flr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Fire/Fire.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Fire/Fire.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/First_Temple/First_Temple.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/First_Temple/First_Temple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Fish_and_Stuff/Fish_and_Stuff.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Fish_and_Stuff/Fish_and_Stuff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/HeavyBombardment.flr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Homo_Sapiens_Sapiens/Homo_Sapiens_Sapiens.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Homo_Sapiens_Sapiens/Homo_Sapiens_Sapiens.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Industrialization/Industrialization.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Industrialization/Industrialization.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Insects/Insects.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Insects/Insects.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Internet/Internet.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Internet/Internet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Mammals/Mammals.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Mammals/Mammals.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Marie_Curie/Marie_Curie.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Marie_Curie/Marie_Curie.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Martin Luther king/Martin Luther king.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Martin Luther king/Martin Luther king0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Martin Luther king/Martin Luther king1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Milky Way/Milky Way.flr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Moon/Moon.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Moon/Moon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Nelson Mandela_v2/Nelson Mandela_v2.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Nelson Mandela_v2/Nelson Mandela_v2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Newton/Newton_v2.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Newton/Newton_v2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Pyramid/Pyramid.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Pyramid/Pyramid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Recorded_history/Recorded_history.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Recorded_history/Recorded_history.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Reptiles/Reptiles.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Reptiles/Reptiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Robot.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Robot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Roma/Roma.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Roma/Roma.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Sufraggette_movement/Sufraggette_movement.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Sufraggette_movement/Sufraggette_movement.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Sun.flr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Trex.flr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/World_War_I/World_War_I.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/World_War_I/World_War_I.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/World_War_II/World_War_II.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/World_War_II/World_War_II.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Writing/Writing.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/Writing/Writing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/flutter_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/fonts/Roboto-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/fonts/Roboto-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/heart_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/heart_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/heart_toolbar.flr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/humans.flr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/info_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/little-dino.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/menu.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/right_arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/search_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/share_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/sloth.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/timeline.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/twoDimensions_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Agricultural_evolution/Agricultural_evolution.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Agricultural_evolution/Agricultural_evolution.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Alan_Turing/Alan_Turing.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Alan_Turing/Alan_Turing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Amelia_Earhart/Amelia_Earhart.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Amelia_Earhart/Amelia_Earhart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Apes/Apes.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Apes/Apes0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Apes/Apes1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Articles/agricultural_revolution.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Articles/alan_turing.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Articles/amelia_earhart.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Articles/animals.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Articles/big_bang.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Articles/black_plague.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Articles/bombardment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Articles/cold_war.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Articles/constantinople.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Articles/control_fire.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Articles/crusades.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Articles/darwin.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Articles/dino_extinction.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Articles/dinosaurs.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Articles/earth.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Articles/fire.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Articles/first_temple.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Articles/fish.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Articles/history.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Articles/humans.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Articles/industrialization.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Articles/insects.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Articles/internet.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Articles/last_common_ancestor_apes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Articles/life_on_earth.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Articles/mammals.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Articles/marie_curie.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Articles/martin_luther_king.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Articles/milky_way.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Articles/moon_landing.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Articles/nelson_mandela.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Articles/newton.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Articles/pyramids.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Articles/reptiles.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Articles/roman_empire.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Articles/sapiens.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Articles/single_celled_organisms.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Articles/suffragette.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Articles/sun.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Articles/tools.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Articles/world_war_i.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Articles/world_war_ii.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Articles/writing.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Big_Bang/Big_Bang.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Big_Bang/Big_Bang0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Big_Bang/Big_Bang1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Big_Bang/Big_Bang2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Big_Bang/Big_Bang3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/BlackPlague/BlackPlague.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/BlackPlague/BlackPlague.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Cells/Cells.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Cells/Cells.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Cold_war/Cold_war.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Cold_war/Cold_war.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Constantinople/Constantinople.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Constantinople/Constantinople0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Constantinople/Constantinople1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Constructive_Tools/Constructive_Tools.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Constructive_Tools/Constructive_Tools.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Crusades/Crusades.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Crusades/Crusades.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Darwin 2/Darwin 2.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Darwin 2/Darwin 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Dinosaur_Demise/Dinosaur_Demise.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Dinosaur_Demise/Dinosaur_Demise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Dinosaurs/Dinosaurs.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Dinosaurs/Dinosaurs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Fire/Fire.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Fire/Fire.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/First_Temple/First_Temple.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/First_Temple/First_Temple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Fish_and_Stuff/Fish_and_Stuff.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Fish_and_Stuff/Fish_and_Stuff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Homo_Sapiens_Sapiens/Homo_Sapiens_Sapiens.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Homo_Sapiens_Sapiens/Homo_Sapiens_Sapiens.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Industrialization/Industrialization.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Industrialization/Industrialization.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Insects/Insects.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Insects/Insects.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Internet/Internet.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Internet/Internet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Mammals/Mammals.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Mammals/Mammals.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Marie_Curie/Marie_Curie.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Marie_Curie/Marie_Curie.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Martin Luther king/Martin Luther king.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Martin Luther king/Martin Luther king0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Martin Luther king/Martin Luther king1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Milky Way/Milky Way.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Milky Way/Milky Way.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Moon/Moon.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Moon/Moon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Nelson Mandela_v2/Nelson Mandela_v2.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Nelson Mandela_v2/Nelson Mandela_v2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Newton/Newton.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Newton/Newton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Pyramid/Pyramid.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Pyramid/Pyramid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Recorded_history/Recorded_history.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Recorded_history/Recorded_history.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Reptiles/Reptiles.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Reptiles/Reptiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Roma/Roma.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Roma/Roma.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Sufraggette_movement/Sufraggette_movement.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Sufraggette_movement/Sufraggette_movement.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/World_War_I/World_War_I.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/World_War_I/World_War_I.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/World_War_II/World_War_II.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/World_War_II/World_War_II.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Writing/Writing.nma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/full_quality/Writing/Writing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/ios/Flutter/AppFrameworkInfo.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/ios/Flutter/Debug.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/ios/Flutter/Release.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/ios/Podfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/ios/Runner.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/ios/Runner/AppDelegate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/ios/Runner/AppDelegate.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/ios/Runner/Assets.xcassets/AppIcon.appiconset/icon_20pt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/ios/Runner/Assets.xcassets/AppIcon.appiconset/icon_20pt@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/ios/Runner/Assets.xcassets/AppIcon.appiconset/icon_20pt@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/ios/Runner/Assets.xcassets/AppIcon.appiconset/icon_29pt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/ios/Runner/Assets.xcassets/AppIcon.appiconset/icon_29pt@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/ios/Runner/Assets.xcassets/AppIcon.appiconset/icon_29pt@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/ios/Runner/Assets.xcassets/AppIcon.appiconset/icon_40pt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/ios/Runner/Assets.xcassets/AppIcon.appiconset/icon_40pt@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/ios/Runner/Assets.xcassets/AppIcon.appiconset/icon_40pt@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/ios/Runner/Assets.xcassets/AppIcon.appiconset/icon_60pt@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/ios/Runner/Assets.xcassets/AppIcon.appiconset/icon_60pt@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/ios/Runner/Assets.xcassets/AppIcon.appiconset/icon_76pt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/ios/Runner/Assets.xcassets/AppIcon.appiconset/icon_76pt@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/ios/Runner/Assets.xcassets/AppIcon.appiconset/icon_83.5@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/ios/Runner/Base.lproj/LaunchScreen.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/ios/Runner/Base.lproj/Main.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/ios/Runner/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/ios/Runner/main.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/lib/article/article_widget.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/lib/article/controllers/amelia_controller.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/lib/article/controllers/flare_interaction_controller.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/lib/article/controllers/newton_controller.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/lib/article/controllers/nima_interaction_controller.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/lib/article/timeline_entry_widget.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/lib/bloc_provider.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/lib/blocs/favorites_bloc.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/lib/colors.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/lib/main.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/lib/main_menu/about_page.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/lib/main_menu/collapsible.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/lib/main_menu/favorites_page.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/lib/main_menu/main_menu.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/lib/main_menu/main_menu_section.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/lib/main_menu/menu_data.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/lib/main_menu/menu_vignette.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/lib/main_menu/search_widget.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/lib/main_menu/thumbnail.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/lib/main_menu/thumbnail_detail_widget.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/lib/search_manager.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/lib/timeline/ticks.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/lib/timeline/timeline.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/lib/timeline/timeline_entry.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/lib/timeline/timeline_render_widget.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/lib/timeline/timeline_utils.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/lib/timeline/timeline_widget.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/pubspec.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/test/widget_test.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dependencies/Flare-Flutter" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dependencies/Nima-Flutter" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tools/.packages" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tools/find_large_assets.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tools/pubspec.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tools/pubspec.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tools/resize_large_assets.dart" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/.idea/" />
+    <ignored path="$PROJECT_DIR$/.pub/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/main.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="26">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/lib/main.dart" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="width" value="1528" />
+    <option name="height" value="1057" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="flutter_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter_app" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="950ccecf-c379-421f-8cb9-ed0485b27966" name="Default Changelist" comment="" />
+      <created>1576397196282</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576397196282</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="0" width="1528" height="1057" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Structure" side_tool="true" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Build Variants" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="Captures" side_tool="true" />
+      <window_info id="Resources Explorer" />
+      <window_info id="Capture Tool" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
+      <window_info anchor="bottom" id="Dart Analysis" weight="0.32900432" />
+      <window_info anchor="bottom" id="Run" weight="0.32900432" />
+      <window_info anchor="bottom" id="Logcat" />
+      <window_info anchor="bottom" id="TODO" />
+      <window_info anchor="bottom" id="Debug" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Android Profiler" show_stripe_button="false" />
+      <window_info anchor="right" id="Device File Explorer" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Flutter Inspector" />
+      <window_info anchor="right" id="Flutter Outline" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Flutter Performance" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/lib/main.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
