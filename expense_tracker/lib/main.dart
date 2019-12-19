@@ -71,7 +71,13 @@ class _ExpenseState extends State<Expense> {
     });
   }
 
-  void reset(String val) {
+  List<Transaction> get recentTransactions {
+    return tx.where((index) {
+      return index.date.isAfter(DateTime.now().subtract(Duration(days: 7)));
+    }).toList();
+  }
+
+  void delete(String val) {
     setState(() {
       tx.removeWhere((item) => item.id == val);
     });
@@ -97,22 +103,13 @@ class _ExpenseState extends State<Expense> {
       ),
       body: SingleChildScrollView(
         child: Column(children: <Widget>[
-          Chart(),
-          Container(
-            width: double.infinity,
-            padding: EdgeInsets.fromLTRB(10, 15, 0, 15),
-            child: Text(
-              "List of transactions",
-              style: GoogleFonts.raleway(
-                  fontSize: 18,
-                  fontWeight: FontWeight.w500,
-                  textStyle: TextStyle()),
-              textAlign: TextAlign.left,
-            ),
-          ),
+          Chart(recentTransactions),
           tx.isEmpty
               ? Container(
-                  child: Image.asset("zzz.png"),
+                  child: Image.asset(
+                    "zzz.png",
+                    fit: BoxFit.cover,
+                  ),
                 )
               : Container(
                   height: 530,
@@ -123,7 +120,7 @@ class _ExpenseState extends State<Expense> {
                           title: index.title,
                           amount: index.amount,
                           date: index.date,
-                          reset: reset,
+                          delete: delete,
                           id: index.id,
                         );
                       }).toList()

@@ -3,8 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:intl/intl.dart';
 
-//import 'package:expense_tracker/resources/transaction.dart';
-
 class UserInput extends StatefulWidget {
   final Function update;
 
@@ -37,7 +35,7 @@ class _UserInputState extends State<UserInput> {
   final amountcontroller = TextEditingController();
 
   DateTime datePicker;
-
+  bool check = false;
   void submit(String text, double amount, DateTime date) {
     if (text.isEmpty || amount <= 0 || date == null) return;
     widget.update(amount, text, datePicker);
@@ -69,10 +67,11 @@ class _UserInputState extends State<UserInput> {
                 labelText: "Amount",
               ),
               keyboardType: TextInputType.number,
-//            onSubmitted: (_) {
-//              submit(itemcontroller.text, double.parse(amountcontroller.text));
+              onSubmitted: (_) {
+                submit(itemcontroller.text, double.parse(amountcontroller.text),
+                    datePicker);
 //              Navigator.pop(context);
-//            },
+              },
             ),
             Column(
               crossAxisAlignment: CrossAxisAlignment.end,
@@ -130,19 +129,3 @@ class _UserInputState extends State<UserInput> {
     );
   }
 }
-
-//Container(
-//margin: EdgeInsets.only(top: 20),
-//child: RaisedButton(
-//onPressed: () {
-//widget.reset();
-//Navigator.pop(context);
-//},
-//color: Theme.of(context).primaryColor,
-//padding: EdgeInsets.all(5),
-//child: Text(
-//"Reset",
-//style: Theme.of(context).textTheme.button,
-//),
-//),
-//),reset button

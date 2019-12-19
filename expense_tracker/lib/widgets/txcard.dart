@@ -1,15 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-//import 'package:expense_tracker/main.dart';
 
 class TransactionCard extends StatelessWidget {
   final String id;
   final String title;
   final double amount;
   final DateTime date;
-  final Function reset;
+  final Function delete;
 
-  TransactionCard({this.date, this.title, this.id, this.amount, this.reset});
+  TransactionCard({this.date, this.title, this.id, this.amount, this.delete});
 
   @override
   Widget build(BuildContext context) {
@@ -43,7 +42,7 @@ class TransactionCard extends StatelessWidget {
           trailing: IconButton(
               icon: Icon(Icons.delete),
               onPressed: () {
-                reset(id);
+                delete(id);
               }),
         ),
       ),
