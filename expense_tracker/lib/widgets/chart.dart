@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
+import 'chart_Bars.dart';
 
 class Chart extends StatefulWidget {
   @override
@@ -7,21 +7,32 @@ class Chart extends StatefulWidget {
 }
 
 class _ChartState extends State<Chart> {
+  List sample = [
+    1,
+    2,
+    1,
+    3,
+    1,
+    3,
+    5,
+  ];
+
   @override
   Widget build(BuildContext context) {
-    return Container(
-      width: double.infinity,
-      height: 150,
-      child: Card(
-          margin: EdgeInsets.all(15),
-          elevation: 30,
-          child: Center(
-            child: Text("card 1",
-                style: GoogleFonts.aBeeZee(
-                    fontSize: 28,
-                    fontWeight: FontWeight.w600,
-                    textStyle: TextStyle(color: Colors.blueGrey[600]))),
-          )),
+    return Card(
+      margin: EdgeInsets.all(15),
+      elevation: 10,
+      child: Container(
+        height: 150,
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          children: <Widget>[
+            ...sample.map((ctx) {
+              return ChartBars();
+            }).toList()
+          ],
+        ),
+      ),
     );
   }
 }

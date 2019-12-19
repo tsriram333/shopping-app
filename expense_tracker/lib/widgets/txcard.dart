@@ -1,50 +1,50 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:intl/intl.dart';
+//import 'package:expense_tracker/main.dart';
 
 class TransactionCard extends StatelessWidget {
   final String id;
   final String title;
   final double amount;
   final DateTime date;
+  final Function reset;
 
-  TransactionCard({this.date, this.title, this.id, this.amount});
+  TransactionCard({this.date, this.title, this.id, this.amount, this.reset});
 
   @override
   Widget build(BuildContext context) {
     return Card(
+      margin: EdgeInsets.symmetric(horizontal: 10, vertical: 6),
+      elevation: 5,
       child: Container(
-        padding: EdgeInsets.fromLTRB(15, 5, 0, 5),
-        child: Row(
-          children: <Widget>[
-            Container(
-              margin: EdgeInsets.fromLTRB(0, 0, 10, 0),
-              padding: EdgeInsets.all(8),
-              decoration: ShapeDecoration(
-                  shape: Border.all(
-                      color: Colors.blueGrey,
-                      width: 3,
-                      style: BorderStyle.solid)),
-              child: Text(
-                "₹ ${amount.toStringAsFixed(2)}",
-                style: GoogleFonts.aBeeZee(
-                    fontSize: 24, fontWeight: FontWeight.bold),
-              ),
+        padding: EdgeInsets.fromLTRB(5, 5, 0, 5),
+        child: ListTile(
+          leading: Container(
+            padding: EdgeInsets.all(8),
+            decoration: ShapeDecoration(
+                shape: Border.all(
+                    color: Theme.of(context).primaryColor,
+                    width: 2,
+                    style: BorderStyle.solid)),
+            child: Text(
+              "₹ ${amount.toStringAsFixed(0)}",
+              textAlign: TextAlign.justify,
+              style: Theme.of(context).textTheme.body1.copyWith(fontSize: 25),
             ),
-            Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: <Widget>[
-                Text(
-                  title,
-                  style: GoogleFonts.roboto(
-                      fontSize: 18,
-                      fontWeight: FontWeight.w500,
-                      textStyle: TextStyle(color: Colors.purple)),
-                ),
-                Text(DateFormat.yMMMd().format(date))
-              ],
-            )
-          ],
+          ),
+          title: Text(
+            title,
+            style: Theme.of(context).textTheme.caption,
+          ),
+          subtitle: Text(
+            DateFormat.yMMMd().format(date),
+            style: Theme.of(context).textTheme.body2,
+          ),
+          trailing: IconButton(
+              icon: Icon(Icons.delete),
+              onPressed: () {
+                reset(id);
+              }),
         ),
       ),
     );
