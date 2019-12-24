@@ -2,7 +2,7 @@ import 'models/category_Model.dart';
 import 'package:flutter/material.dart';
 
 class CategoryData {
-  List<Category> data = [
+  static final List<Category> data = [
     Category(
       id: "c1",
       color: Colors.grey,
