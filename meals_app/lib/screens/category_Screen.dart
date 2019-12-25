@@ -9,26 +9,65 @@ class CategoryScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text("Categories"),
+    return DefaultTabController(
+      length: 2,
+      child: Scaffold(
+          appBar: AppBar(
+            title: Text("Categories"),
+            bottom: TabBar(tabs: [
+              TabName(title: "Items"),
+              TabName(title: "Favourites"),
+            ]),
+          ),
+          body: TabBarView(children: [
+            CategoryGrid(values: values),
+            Text("enna daw"),
+          ])),
+    );
+  }
+}
+
+class TabName extends StatelessWidget {
+  final String title;
+  const TabName({Key key, this.title}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.all(8.0),
+      child: Text(
+        title,
+        style: TextStyle(fontSize: 20, fontWeight: FontWeight.w400),
       ),
-      body: GridView(
-        gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
-          maxCrossAxisExtent: 300,
-          childAspectRatio: 2 / 1.5,
-        ),
-        padding: const EdgeInsets.all(15),
-        children: <Widget>[
-          ...values.map((index) {
-            return CategoryItem(
-              title: index.title,
-              color: index.color,
-              category: index.id,
-            );
-          }).toList()
-        ],
+    );
+  }
+}
+
+class CategoryGrid extends StatelessWidget {
+  const CategoryGrid({
+    Key key,
+    @required this.values,
+  }) : super(key: key);
+
+  final List<Category> values;
+
+  @override
+  Widget build(BuildContext context) {
+    return GridView(
+      gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
+        maxCrossAxisExtent: 300,
+        childAspectRatio: 2 / 1.5,
       ),
+      padding: const EdgeInsets.all(15),
+      children: <Widget>[
+        ...values.map((index) {
+          return CategoryItem(
+            title: index.title,
+            color: index.color,
+            category: index.id,
+          );
+        }).toList()
+      ],
     );
   }
 }

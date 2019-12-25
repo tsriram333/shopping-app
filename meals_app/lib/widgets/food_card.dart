@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:meals_app/screens/single_Food_Item.dart';
+import 'package:meals_app/screens/single_Food_Item_Screen.dart';
 
 class FoodCard extends StatelessWidget {
   final String title;
