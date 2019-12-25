@@ -10,20 +10,21 @@ class CategoryScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        title: Text("Categories"),
+      ),
       body: GridView(
         gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
-          maxCrossAxisExtent: 400,
-          childAspectRatio: 2 / 1,
+          maxCrossAxisExtent: 300,
+          childAspectRatio: 2 / 1.5,
         ),
         padding: const EdgeInsets.all(15),
         children: <Widget>[
           ...values.map((index) {
-            return Card(
-              child: CategoryItem(
-                title: index.title,
-                color: index.color,
-              ),
+            return CategoryItem(
+              title: index.title,
+              color: index.color,
+              category: index.id,
             );
           }).toList()
         ],

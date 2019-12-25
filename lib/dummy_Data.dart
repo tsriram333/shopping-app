@@ -1,4 +1,5 @@
 import 'models/category_Model.dart';
+import 'models/food_Model.dart';
 import 'package:flutter/material.dart';
 
 class CategoryData {
@@ -53,5 +54,130 @@ class CategoryData {
       color: Colors.blue,
       title: "chicken",
     ),
+  ];
+}
+
+class FoodData {
+  static final List data = [
+    Food(
+      title: "chicken",
+      affordability: affordability.pricey,
+      category: ["c1", "c2", "c3"],
+      complexity: complexity.hard,
+      duration: 25.30,
+      id: "b1",
+      image:
+          "https://img.buzzfeed.com/video-api-prod/assets/e0852050640d4474aaf3542d61f2568a/FB.jpg",
+      steps: ["get water", "pur water", "boil water", "drink water"],
+      ingredients: [
+        "chicken",
+        "water",
+        "Rice",
+        "plate",
+        "thums up",
+        "mutton",
+        "leaves"
+      ],
+    ),
+    Food(
+      title: "chicken",
+      affordability: affordability.pricey,
+      category: ["c1", "c2", "c3"],
+      complexity: complexity.hard,
+      duration: 25.30,
+      id: "b1",
+      image:
+          "https://img.buzzfeed.com/video-api-prod/assets/e0852050640d4474aaf3542d61f2568a/FB.jpg",
+      steps: ["get water", "pur water", "boil water", "drink water"],
+      ingredients: [
+        "chicken",
+        "water",
+        "Rice",
+        "plate",
+        "thums up",
+        "mutton",
+        "leaves"
+      ],
+    ),
+    Food(
+      title: "Biryani",
+      affordability: affordability.pricey,
+      category: ["c1", "c2", "c3"],
+      complexity: complexity.hard,
+      duration: 25.30,
+      id: "b1",
+      image:
+          "https://img.buzzfeed.com/video-api-prod/assets/e0852050640d4474aaf3542d61f2568a/FB.jpg",
+      steps: ["get water", "pur water", "boil water", "drink water"],
+      ingredients: [
+        "chicken",
+        "water",
+        "Rice",
+        "plate",
+        "thums up",
+        "mutton",
+        "leaves"
+      ],
+    ),
+    Food(
+      title: "Biryani",
+      affordability: affordability.pricey,
+      category: ["c1", "c2", "c3"],
+      complexity: complexity.hard,
+      duration: 25.30,
+      id: "b1",
+      image:
+          "https://img.buzzfeed.com/video-api-prod/assets/e0852050640d4474aaf3542d61f2568a/FB.jpg",
+      steps: ["get water", "pur water", "boil water", "drink water"],
+      ingredients: [
+        "chicken",
+        "water",
+        "Rice",
+        "plate",
+        "thums up",
+        "mutton",
+        "leaves"
+      ],
+    ),
+    Food(
+      title: "Biryani",
+      affordability: affordability.pricey,
+      category: ["c1", "c2", "c3"],
+      complexity: complexity.hard,
+      duration: 25.30,
+      id: "b1",
+      image:
+          "https://img.buzzfeed.com/video-api-prod/assets/e0852050640d4474aaf3542d61f2568a/FB.jpg",
+      steps: ["get water", "pur water", "boil water", "drink water"],
+      ingredients: [
+        "chicken",
+        "water",
+        "Rice",
+        "plate",
+        "thums up",
+        "mutton",
+        "leaves"
+      ],
+    ),
+    Food(
+      title: "Biryani",
+      affordability: affordability.pricey,
+      category: ["c1", "c2", "c3"],
+      complexity: complexity.hard,
+      duration: 25.30,
+      id: "b1",
+      image:
+          "https://img.buzzfeed.com/video-api-prod/assets/e0852050640d4474aaf3542d61f2568a/FB.jpg",
+      steps: ["get water", "pur water", "boil water", "drink water"],
+      ingredients: [
+        "chicken",
+        "water",
+        "Rice",
+        "plate",
+        "thums up",
+        "mutton",
+        "leaves"
+      ],
+    )
   ];
 }
