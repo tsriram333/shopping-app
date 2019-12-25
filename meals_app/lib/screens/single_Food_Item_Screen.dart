@@ -3,20 +3,11 @@ import 'package:flutter/material.dart';
 class SingleFoodItem extends StatelessWidget {
   static final String routeName = "/SingleFoodItem";
 
-  List dummy = [
-    "Step1",
-    "Step1",
-    "Step1",
-    "Step1",
-    "Step1",
-    "Step1",
-    "Step1",
-    "Step1",
-    "Step1",
-  ];
-
   @override
   Widget build(BuildContext context) {
+    final List arguments = ModalRoute.of(context).settings.arguments;
+    print(arguments);
+
     return Scaffold(
       appBar: AppBar(),
       body: Column(
@@ -29,7 +20,7 @@ class SingleFoodItem extends StatelessWidget {
                   height: 300,
                   width: double.infinity,
                   child: Image.network(
-                    "https://www.dinneratthezoo.com/wp-content/uploads/2018/10/roasted-chicken-4.jpg",
+                    arguments[3],
                     fit: BoxFit.cover,
                     alignment: Alignment.center,
                   ),
@@ -39,7 +30,7 @@ class SingleFoodItem extends StatelessWidget {
                   color: Colors.black38,
                   padding: EdgeInsets.all(8),
                   child: Text(
-                    "chicken",
+                    arguments[0],
                     textAlign: TextAlign.center,
                     style: TextStyle(color: Colors.white, fontSize: 22),
                   ),
@@ -59,15 +50,15 @@ class SingleFoodItem extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.spaceAround,
                       children: <Widget>[
                         BottomDetails(
-                          text: " Min",
+                          text: "${arguments[2]} Min",
                           icon: Icons.access_time,
                         ),
                         BottomDetails(
-                          text: "hard",
+                          text: arguments[1],
                           icon: Icons.cake,
                         ),
                         BottomDetails(
-                          text: "costly",
+                          text: arguments[4],
                           icon: Icons.attach_money,
                         ),
                       ],
@@ -78,16 +69,15 @@ class SingleFoodItem extends StatelessWidget {
                       borderRadius: BorderRadius.circular(15),
                       color: Colors.grey[100],
                     ),
-                    margin: EdgeInsets.only(left: 20),
+                    margin: EdgeInsets.all(10),
                     padding: EdgeInsets.all(8),
                     width: double.infinity,
                     height: 150,
                     child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
+//                      crossAxisAlignment: CrossAxisAlignment.start,
                       children: <Widget>[
                         Text(
                           "Ingredients",
-                          textAlign: TextAlign.left,
                           style: TextStyle(
                             fontSize: 18,
                           ),
@@ -98,7 +88,17 @@ class SingleFoodItem extends StatelessWidget {
                         Expanded(
                           child: ListView(
                             children: <Widget>[
-                              ...dummy.map((lal) => Text(lal)).toList()
+                              ...arguments[6]
+                                  .map((lal) => Card(
+                                        child: Container(
+                                          padding: EdgeInsets.all(8),
+                                          child: Text(
+                                            lal,
+                                            style: TextStyle(fontSize: 16),
+                                          ),
+                                        ),
+                                      ))
+                                  .toList()
                             ],
                           ),
                         )
@@ -106,23 +106,22 @@ class SingleFoodItem extends StatelessWidget {
                     ),
                   ),
                   SizedBox(
-                    height: 20,
+                    height: 10,
                   ),
                   Container(
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(15),
                       color: Colors.grey[100],
                     ),
-                    margin: EdgeInsets.only(left: 20),
+                    margin: EdgeInsets.all(10),
                     padding: EdgeInsets.all(8),
                     width: double.infinity,
                     height: 150,
                     child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
+//                      crossAxisAlignment: CrossAxisAlignment.start,
                       children: <Widget>[
                         Text(
-                          "Ingredients",
-                          textAlign: TextAlign.left,
+                          "Procedure",
                           style: TextStyle(
                             fontSize: 18,
                           ),
@@ -133,7 +132,17 @@ class SingleFoodItem extends StatelessWidget {
                         Expanded(
                           child: ListView(
                             children: <Widget>[
-                              ...dummy.map((lal) => Text(lal)).toList()
+                              ...arguments[5]
+                                  .map((lal) => Card(
+                                        child: Container(
+                                          padding: EdgeInsets.all(8),
+                                          child: Text(
+                                            lal,
+                                            style: TextStyle(fontSize: 16),
+                                          ),
+                                        ),
+                                      ))
+                                  .toList()
                             ],
                           ),
                         )

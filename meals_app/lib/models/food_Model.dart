@@ -12,6 +12,10 @@ class Food {
   final affordability;
   final double duration;
   final List<String> category;
+  final bool isGlutenFree;
+  final bool isLactoseFree;
+  final bool isVegetarian;
+  final bool isVegan;
 
   Food(
       {this.affordability,
@@ -22,7 +26,11 @@ class Food {
       this.id,
       this.image,
       this.ingredients,
-      this.steps});
+      this.steps,
+      this.isGlutenFree,
+      this.isLactoseFree,
+      this.isVegan,
+      this.isVegetarian});
 }
 
 String getComplexity(complexity comp) {

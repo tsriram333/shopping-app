@@ -23,7 +23,7 @@ class CategoryItem extends StatelessWidget {
         margin: EdgeInsets.symmetric(vertical: 10, horizontal: 10),
         decoration: BoxDecoration(
           gradient: LinearGradient(
-            colors: [color.withOpacity(0.4), color.withOpacity(1)],
+            colors: [color.withOpacity(0.5), color.withOpacity(0.9)],
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
           ),

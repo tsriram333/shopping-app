@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../widgets/category_Item.dart';
-import 'package:meals_app/dummy_Data.dart';
+import 'package:Foods_app/dummy_Data.dart';
 import '../models/category_Model.dart';
 
 class CategoryScreen extends StatelessWidget {
@@ -13,7 +13,7 @@ class CategoryScreen extends StatelessWidget {
       length: 2,
       child: Scaffold(
           appBar: AppBar(
-            title: Text("Categories"),
+            title: Text("category"),
             bottom: TabBar(tabs: [
               TabName(title: "Items"),
               TabName(title: "Favourites"),

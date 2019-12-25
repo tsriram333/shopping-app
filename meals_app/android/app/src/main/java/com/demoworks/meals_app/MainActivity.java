@@ -1,4 +1,4 @@
-package com.demoworks.meals_app;
+package com.demoworks.Foods_app;
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.android.FlutterActivity;

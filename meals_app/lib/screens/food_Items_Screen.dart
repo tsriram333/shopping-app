@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:meals_app/widgets/food_card.dart';
-import 'package:meals_app/dummy_Data.dart';
+import 'package:Foods_app/widgets/food_card.dart';
+import 'package:Foods_app/dummy_Data.dart';
 
 import '../models/food_Model.dart';
 
@@ -29,6 +29,8 @@ class FoodItems extends StatelessWidget {
               duration: index.duration,
               price: getAffordability(index.affordability),
               complexity: getComplexity(index.complexity),
+              ingredients: index.ingredients,
+              steps: index.steps,
             );
           }).toList()
         ],

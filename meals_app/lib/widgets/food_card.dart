@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:meals_app/screens/single_Food_Item_Screen.dart';
+import 'package:Foods_app/screens/single_Food_Item_Screen.dart';
 
 class FoodCard extends StatelessWidget {
   final String title;
@@ -7,17 +7,28 @@ class FoodCard extends StatelessWidget {
   final String complexity;
   final double duration;
   final String image;
+  final List<String> ingredients;
+  final List<String> steps;
 
-  FoodCard({
-    this.title,
-    this.complexity,
-    this.duration,
-    this.image,
-    this.price,
-  });
+  FoodCard(
+      {this.title,
+      this.complexity,
+      this.duration,
+      this.image,
+      this.price,
+      this.ingredients,
+      this.steps});
 
   void foodTap(BuildContext context) {
-    Navigator.pushNamed(context, SingleFoodItem.routeName);
+    Navigator.pushNamed(context, SingleFoodItem.routeName, arguments: [
+      title,
+      complexity,
+      duration,
+      image,
+      price,
+      steps,
+      ingredients
+    ]);
   }
 
   @override
